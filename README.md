@@ -40,7 +40,7 @@ Built with **Flask**, **Sentence Transformers**, and **PyMuPDF**, this tool is i
 git clone https://github.com/yourusername/ATS-Resume-Score.git
 cd ATS-Resume-Score
 
-2. Create a virtual environment
+ 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate      # For Windows: venv\Scripts\activate
 
