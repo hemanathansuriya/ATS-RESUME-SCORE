@@ -37,7 +37,7 @@ Built with **Flask**, **Sentence Transformers**, and **PyMuPDF**, this tool is i
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/ATS-Resume-Score.git
+git clone https:https://github.com/hemanathansuriya/ATS-RESUME-SCORE.git
 cd ATS-Resume-Score
 
  2. Create a virtual environment
