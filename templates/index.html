@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Score</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <h1>Resume Score</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+
+        <textarea name="job_doc" id="4" placeholder="Enter a Job Description" required></textarea><br><br>
+
+        <button type="submit">Check Score</button>
+    </form>
+
+    {% if score is not none %}
+        <h2 id="Scoretext">Match Resume Score: {{ score }}%</h2>
+    {% endif %}
+</body>
+</html>
